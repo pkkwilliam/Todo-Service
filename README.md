@@ -4,11 +4,11 @@ This is a Node.JS application that can interact with REST controller
 
 The different chose of repo implemenetion is inject at App.js
 
-The application will save a local file into the current directory if no file present.
+By default, The application will save a local file into the current directory if no file present.
 
 Implementation for other databases can simply swapt out at app.js
 
-An example of method that need to override and implmenet are in MongoFiileTaskRepository
+An example of methods that need to override and implmenet are in MongoFiileTaskRepository
 
 ```bash
 req.taskRepository = localFileTaskRepository;
